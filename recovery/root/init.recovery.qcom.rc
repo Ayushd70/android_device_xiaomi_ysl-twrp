@@ -45,7 +45,7 @@ on fs
 on property:ro.crypto.state=encrypted
     start sbinqseecomd
 
-# Separate copy needed to use /sbin/linker64 instead of /system/bin/linker64
+# Separate copy needed to use /sbin/linker instead of /system/bin/linker
 service sbinqseecomd /sbin/qseecomd
     oneshot
     disabled
