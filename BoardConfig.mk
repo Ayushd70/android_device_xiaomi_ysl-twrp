@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+ALLOW_MISSING_DEPENDENCIES := TRUE
+
 LOCAL_PATH := device/xiaomi/ysl
 
 TARGET_BOARD_PLATFORM := msm8953
